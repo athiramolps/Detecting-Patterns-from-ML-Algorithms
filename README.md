@@ -1,4 +1,6 @@
 DETECTING INTERESTING PATTERNS
+
+
 A Predictive Analysis of Car Prices Using Regression Models
 
 
