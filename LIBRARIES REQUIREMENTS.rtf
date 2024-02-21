@@ -1,0 +1,35 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2759
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww28600\viewh15480\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Your `requirements.txt` file should list all the Python libraries and their versions required for your project. Based on your description, it seems like you'll need scikit-learn for implementing the various regression algorithms. Here's how you can structure your `requirements.txt`:\
+\
+```\
+scikit-learn==<version>\
+```\
+\
+Replace `<version>` with the specific version of scikit-learn you want to use. You can find the latest version by checking the scikit-learn documentation or using pip to install the latest version and then checking the installed version using `pip show scikit-learn`.\
+\
+So your `requirements.txt` file will look something like this:\
+\
+```\
+scikit-learn==<version>\
+```\
+\
+You can include other libraries if you're using them in your project as well. If you're using Jupyter notebooks for your analysis, you might want to include `jupyter` in your `requirements.txt` as well:\
+\
+```\
+scikit-learn==<version>\
+jupyter==<version>\
+```\
+\
+Again, replace `<version>` with the specific version you want to use. Once you have your `requirements.txt` file set up, you can install all the dependencies listed in it by running:\
+\
+```\
+pip install -r requirements.txt\
+```\
+\
+This command will install all the required libraries along with their specified versions, ensuring that your project's environment is reproducible.}
